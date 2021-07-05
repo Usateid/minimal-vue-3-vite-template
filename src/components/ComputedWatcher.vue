@@ -12,13 +12,26 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, watchEffect } from 'vue'
 
 const counter = ref(1)
+const hiddenValue = ref(0)
 
 const counterComputed = computed(() => counter.value * 2)
 
-watch(() => console.log('watch counter:', counter.value))
+watch(counter, () => console.log('watch counter:', counter.value))
+
+watchEffect(() => {
+  console.log('Counter or hiddenValue have changed')
+  console.log('-hiddenValue updates every 5 seconds-')
+  console.log('counter:', counter.value)
+  console.log('hiddenValue:', hiddenValue.value)
+})
+
+setTimeout(() => {
+  hiddenValue.value++
+  // -> logs 1
+}, 5000)
 </script>
 
 <style lang="scss" scoped></style>
