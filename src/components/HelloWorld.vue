@@ -19,6 +19,7 @@
 <script setup>
 import { ref, reactive } from 'vue'
 
+// eslint-disable-next-line no-undef
 const props = defineProps({
   msg: {
     type: String,
