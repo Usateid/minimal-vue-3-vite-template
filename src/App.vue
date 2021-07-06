@@ -1,6 +1,5 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <div class="a d o kp lklapsda kslpd kapsld kalpsd apskd apskjapraspoefsjf nakhjfb akldfaljk dakljdfjn">ds</div>
   <hello-world msg="Hello Vue 3 + Vite" />
 </template>
 
