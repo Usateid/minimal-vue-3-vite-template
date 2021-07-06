@@ -1,4 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "vetur.format.enable": false
+  "vetur.format.enable": false,
+  "prettier.semi": false
 }

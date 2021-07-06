@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-import { HelloWorld } from '@/components'
+import { HelloWorld } from "@/components"
 
 const emitFunction = (e) => {
   console.log(e)

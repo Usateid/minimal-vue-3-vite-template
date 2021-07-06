@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-const title = 'Hello World Component'
+const title = "Hello World Component"
 </script>
 
 <style scoped>
