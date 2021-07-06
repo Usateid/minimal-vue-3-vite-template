@@ -1,25 +1,11 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <div class="a d o kp lklapsda kslpd kapsld kalpsd apskd apskjapraspoefsjf nakhjfb akldfaljk dakljdfjn">ds</div>
   <hello-world msg="Hello Vue 3 + Vite" />
-  <hr />
-  <props-reactivity
-    :counter="22"
-    :user="{ firstName: 'Mario', lastName: 'Rossi' }"
-    :list="['Ananas', 'Bluberry', 'Carrot', 'Dolphin']"
-  />
-  <hr />
-  <computed-watcher />
-  <hr />
-  <events @get-payload="emitFunction" @submit="emitFunction" />
 </template>
 
 <script setup>
-import {
-  HelloWorld,
-  PropsReactivity,
-  ComputedWatcher,
-  Events
-} from '@/components'
+import { HelloWorld } from '@/components'
 
 const emitFunction = (e) => {
   console.log(e)
