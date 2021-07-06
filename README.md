@@ -8,7 +8,7 @@
     <img width="90" src="https://vitejs.dev/logo.svg" alt="Vite logo">
   </a>
   <a href="https://v3.vuejs.org/" target="_blank" rel="noopener noreferrer">
-    <img width="90" src="https://v3.vuejs.org/logo.png" alt="Vue logo">
+    <img width="90" src="https://vuejs.org/images/logo.png" alt="Vue logo">
   </a>
   <a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">
     <img width="90" src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" alt="Eslint logo">
